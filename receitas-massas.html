@@ -3,15 +3,76 @@
 <head>
     <meta charset="utf-8">
     <title>Receitas de Massas</title>
-    <link rel="stylesheet" href="css/style.css"/>
+    <link rel="stylesheet" href="css/styleR.css"/>
     <link rel="manifest" href="/manifest.json" />
     <link rel="apple-touch-icon" href="images/pwa-icon-256.png" />
     <meta name="theme-color" content="white" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 0;
+            background-color: #f7f7f7;
+        }
+        .card {
+            width: 300px;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            background-color: #fff;
+        }
+        .card img {
+            width: 100%;
+            height: auto;
+            border-bottom: 2px solid #ddd;
+        }
+        .card-content {
+            padding: 20px;
+        }
+        .card-content h2 {
+            margin: 0 0 10px 0;
+            font-size: 22px;
+            color: #333;
+        }
+        .card-content p {
+            margin: 0;
+            font-size: 14px;
+            color: #777;
+        }
+    </style>
 </head>
 <body class="fullscreen">
     <div class="container">
         <h1 class="title">Receitas de Massas</h1>
+            <div class="card">
+                <img src="images/massas/lasanha/lasanha-de-frango-01-730x548.webp" alt="">
+                <div class="card-content">
+                    <h2>Receita de Lasanha</h2>
+                    <p>Como fazer uma Lasanha de Frango delicoso😋</p>
+                    <h3><a href="lasanha-de-frango.html"><button>Lasanha</button></a></h3>
+                </div>
+            </div>
+    <br>
+            <div class="card">
+                <img src="images/massas/miojo/miojo-cremoso.webp" alt="">
+                <div class="card-content">
+                    <h2>Receita de Miojo</h2>
+                    <p>Como fazer miojo 🍜</p>
+                    <h3><a href="miojo.html"><button>Miojo</button></a></h3>
+                </div>
+            </div>
+    <br>
+            <div class="card">
+                 <img src="images/massas/macarronada/macarronada-de-calabresa-facil-capa.webp" alt="">
+                <div class="card-content">
+                     <h2>Receita de Macarronada</h2>
+                     <p>Como fazer uma receita de Macarronada 🍝</p>
+                     <h3><a href="macarronada.html"><button>Macarronada</button></a></h3>
+                </div>
+            </div>
     <script src="js/main.js"></script>
 </body>
 </html>

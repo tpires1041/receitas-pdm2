@@ -3,15 +3,77 @@
 <head>
     <meta charset="utf-8">
     <title>Receitas de Carnes</title>
-    <link rel="stylesheet" href="css/style.css"/>
+    <link rel="stylesheet" href="css/styleR.css"/>
     <link rel="manifest" href="/manifest.json" />
     <link rel="apple-touch-icon" href="images/pwa-icon-256.png" />
     <meta name="theme-color" content="white" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 0;
+            background-color: #f7f7f7;
+        }
+        .card {
+            width: 300px;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            background-color: #fff;
+        }
+        .card img {
+            width: 100%;
+            height: auto;
+            border-bottom: 2px solid #ddd;
+        }
+        .card-content {
+            padding: 20px;
+        }
+        .card-content h2 {
+            margin: 0 0 10px 0;
+            font-size: 22px;
+            color: #333;
+        }
+        .card-content p {
+            margin: 0;
+            font-size: 14px;
+            color: #777;
+        }
+    </style>
 </head>
 <body class="fullscreen">
     <div class="container">
         <h1 class="title">Receitas de Carnes</h1>
+
+        <div class="card">
+            <img src="images/carnes/panceta/panceta-na-airfryer-01-730x548.webp" alt="">
+            <div class="card-content">
+                <h2>Panceta na Airfryer</h2>
+                <p>Como fazer uma panceta rápida e pratica 🍖</p>
+                <h3><a href="panceta.html"><button>Panceta</button></a></h3>
+            </div>
+        </div>
+<br>
+        <div class="card">
+            <img src="images/carnes/picadinho-cerveja/picadinho-de-carne-na-cerveja-00.png" alt="">
+            <div class="card-content">
+                <h2>Picadinho de carne na Cerveja</h2>
+                <p>Como fazer uma panceta rápida e pratica 🍺</p>
+                <h3><a href="picadinho-cerveja.html"><button>Picadinho</button></a></h3>
+            </div>
+        </div>
+<br>
+        <div class="card">
+             <img src="images/carnes/picanha/picanha-inteira-na-airfryer-01-730x548.jpg" alt="">
+            <div class="card-content">
+                 <h2>Picanha na Airfryer</h2>
+                 <p>Como fazer uma panceta rápida e pratica 🥩</p>
+                 <h3><a href="picanha.html"><button>Picanha</button></a></h3>
+            </div>
+        </div>
     <script src="js/main.js"></script>
 </body>
 </html>
