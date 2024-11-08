@@ -1,5 +1,5 @@
 let cacheName = "my-recipes-pwa";
-let filesToCache = ["/", "/index.html", "/css/style.css", "/js/main.js", "receitas-massas"];
+let filesToCache = ["/", "/index.html", "/css/style.css", "/css/styleR.css", "/js/main.js", "receitas-massas"];
 
 self.addEventListener("install", (e) => {
     e.waitUntil(
